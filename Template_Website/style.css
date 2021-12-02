@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(141, 136, 136);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(192, 38, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    outline: none;
+}
+
+input {
+    outline: none;
+}
+
+/* Clears, forcing a new row */
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* This adds a gutter to the grid */
+[class*="col-"] {
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+/* Media query for mobile: */
+[class*="col-"]
+{
+    width:100%;
+}
+
+
+/* Media query for tablet: */
+@media only screen and (min-width:768px)
+{
+    .col-s-1 {width:25%;}
+    .col-s-2 {width:100%;}
+}
+
+
+/* Media query for laptop: */
+@media only screen and (min-width:1024px)
+{
+    .col-s-1 {width:25%;}
+    .col-s-2 {width:50%;}
+    .col-s-3 {width:75%;}
+    .col-s-4 {width:100%;}
+}
+
+
+/* Media query for desktop: */
+@media only screen and (min-width:1440px)
+{
+    .col-s-1 {width:20%;}
+    .col-s-2 {width:40%;}
+    .col-s-3 {width:60%;}
+    .col-s-4 {width:80%;}
+    .col-s-5 {width:100%;}
+}
