@@ -1,33 +1,6 @@
 * {
     box-sizing: border-box;
-
 }
-
-
-    #campus
-    {
-        margin-top: 5px;
-        border: 2px;
-        border-style: solid;
-        border-color: black;
-        padding-left: 1rem;
-    }
-    #facts
-    {
-        margin-top: 5px;
-        border: 2px;
-        border-style: solid;
-        border-color: black;
-        padding-left: 1rem;
-    }
-    #news
-    {
-        margin-top: 5px;
-        border: 2px;
-        border-style: solid;
-        border-color: black;
-        padding-left: 1rem;
-    }
 
 img {
     max-width: 100%;
@@ -79,15 +52,17 @@ input {
 
 
 /* Media query for mobile: */
-@media only screen and (max-width:768px)
+[class*="col-"]
 {
-    .col-m-1 {width:100%};
+    width:100%;
 }
 
 
 /* Media query for tablet: */
 @media only screen and (min-width:768px)
 {
+    /*.col-s-1 {width:25%;}
+    .col-s-2 {width:100%;}*/
     .col-t-1 {width:25%;}
     .col-t-2 {width:100%;}
 }
@@ -96,6 +71,10 @@ input {
 /* Media query for laptop: */
 @media only screen and (min-width:1024px)
 {
+    /*.col-s-1 {width:25%;}
+    .col-s-2 {width:50%;}
+    .col-s-3 {width:75%;}
+    .col-s-4 {width:100%;}*/
     .col-l-1 {width:25%;}
     .col-l-2 {width:50%;}
     .col-l-3 {width:75%;}
@@ -106,6 +85,11 @@ input {
 /* Media query for desktop: */
 @media only screen and (min-width:1440px)
 {
+    /*.col-s-1 {width:20%;}
+    .col-s-2 {width:40%;}
+    .col-s-3 {width:60%;}
+    .col-s-4 {width:80%;}
+    .col-s-5 {width:100%;}*/
     .col-d-1 {width:20%;}
     .col-d-2 {width:40%;}
     .col-d-3 {width:60%;}
