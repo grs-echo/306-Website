@@ -13,13 +13,7 @@
     padding-left: 1rem; 
 }
 
-
-    #header
-    {
-        width:100%;
-    }
-
-    #campus
+    .campus
     {
         margin-top: 5px;
         border: 2px;
@@ -96,99 +90,34 @@ input {
 /* Media query for mobile: */
 @media only screen and (max-width:768px)
 {
-    /*.col-m-1 {width:100%};*/
-    #header
-    {
-        display: none;
-    }
-    #campus
-    {
-        width:100%;
-    }
-    #facts
-    {
-        width:100%;
-    }
-    #news
-    {
-        width:100%;
-    }
-
+    .col-m-1 {width:100%};
 }
 
 
 /* Media query for tablet: */
 @media only screen and (min-width:768px)
 {
-    /*.col-t-1 {width:25%;}
-    .col-t-2 {width:100%;}*/
-    #header
-    {
-        display: none;
-    }
-    #campus
-    {
-        width:100%;
-    }
-    #facts
-    {
-        width:100%;
-    }
-    #news
-    {
-        width:100%;
-    }
+    .col-t-1 {width:25%;}
+    .col-t-2 {width:100%;}
 }
 
 
 /* Media query for laptop: */
 @media only screen and (min-width:1024px)
 {
-    /*.col-l-1 {width:25%;}
+    .col-l-1 {width:25%;}
     .col-l-2 {width:50%;}
     .col-l-3 {width:75%;}
-    .col-l-4 {width:100%;}*/
-    #header
-    {
-        display: grid;
-    }
-    #campus
-    {
-        max-width:50%;
-    }
-    #facts
-    {
-        max-width:50%;
-    }
-    #news
-    {
-        width:100%;
-    }
+    .col-l-4 {width:100%;}
 }
 
 
 /* Media query for desktop: */
 @media only screen and (min-width:1440px)
 {
-    /*.col-d-1 {width:20%;}
+    .col-d-1 {width:20%;}
     .col-d-2 {width:40%;}
     .col-d-3 {width:60%;}
     .col-d-4 {width:80%;}
-    .col-d-5 {width:100%;}*/
-    #header
-    {
-        display: grid;
-    }
-    #campus
-    {
-        max-width:40%;
-    }
-    #facts
-    {
-        max-width:40%;
-    }
-    #news
-    {
-        width:20%;
-    }
+    .col-d-5 {width:100%;}
 }
